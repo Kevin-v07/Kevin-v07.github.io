@@ -65,7 +65,7 @@ function startGame(){
     }
 
     console.log(board);
-    setTimeout(hideCards,1500);
+    setTimeout(hideCards,2000);
 }
 
 function hideCards(){
@@ -95,7 +95,7 @@ function selectCard(){
             let r=parseInt(coords[0]);
             let c=parseInt(coords[1]);  
             card2Selected.src= board[r][c]+".jpg";
-            setTimeout(update,1500);
+            setTimeout(update,2000);
         }
     }
 }
